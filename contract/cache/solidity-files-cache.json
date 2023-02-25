@@ -1,0 +1,767 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/mnt/c/Users/dhan/Desktop/contract/contracts/Context.sol": {
+      "lastModificationDate": 1672930955726,
+      "contentHash": "ab73ab5dc3c61f46ff98c3c40d5e420e",
+      "sourceName": "contracts/Context.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "byzantium",
+          "libraries": {
+            "contracts/IterableMapping.sol": {
+              "IterableMapping": "0x231C7F5887213d951107ad2B6E8a6CCfE8cA6EEf"
+            }
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "/mnt/c/Users/dhan/Desktop/contract/contracts/Ownable.sol": {
+      "lastModificationDate": 1672931024959,
+      "contentHash": "d1ef94bd764ea2fc9e3620fb3643edb5",
+      "sourceName": "contracts/Ownable.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "byzantium",
+          "libraries": {
+            "contracts/IterableMapping.sol": {
+              "IterableMapping": "0x231C7F5887213d951107ad2B6E8a6CCfE8cA6EEf"
+            }
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "/mnt/c/Users/dhan/Desktop/contract/contracts/astropom.sol": {
+      "lastModificationDate": 1672939073416,
+      "contentHash": "1f379a9b7c7560f595245dc22eae8dc3",
+      "sourceName": "contracts/astropom.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "byzantium",
+          "libraries": {
+            "contracts/IterableMapping.sol": {
+              "IterableMapping": "0x231C7F5887213d951107ad2B6E8a6CCfE8cA6EEf"
+            }
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ERC20.sol",
+        "./Ownable.sol",
+        "./IUniswapV2Router02.sol",
+        "./IUniswapV2Factory.sol",
+        "./IWETH.sol",
+        "./DividendTracker.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "ATOM"
+      ]
+    },
+    "/mnt/c/Users/dhan/Desktop/contract/contracts/IUniswapV2Factory.sol": {
+      "lastModificationDate": 1672930995861,
+      "contentHash": "a46ce0be290300acafca61043b171053",
+      "sourceName": "contracts/IUniswapV2Factory.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "byzantium",
+          "libraries": {
+            "contracts/IterableMapping.sol": {
+              "IterableMapping": "0x231C7F5887213d951107ad2B6E8a6CCfE8cA6EEf"
+            }
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "IUniswapV2Factory"
+      ]
+    },
+    "/mnt/c/Users/dhan/Desktop/contract/contracts/IUniswapV2Router02.sol": {
+      "lastModificationDate": 1672931010879,
+      "contentHash": "de52e5b74108db435d600dcb5b475dc7",
+      "sourceName": "contracts/IUniswapV2Router02.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "byzantium",
+          "libraries": {
+            "contracts/IterableMapping.sol": {
+              "IterableMapping": "0x231C7F5887213d951107ad2B6E8a6CCfE8cA6EEf"
+            }
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "IUniswapV2Router01",
+        "IUniswapV2Router02"
+      ]
+    },
+    "/mnt/c/Users/dhan/Desktop/contract/contracts/DividendTracker.sol": {
+      "lastModificationDate": 1672930962966,
+      "contentHash": "1f45fc2d6d61aebdff27a9d39badfa5b",
+      "sourceName": "contracts/DividendTracker.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "byzantium",
+          "libraries": {
+            "contracts/IterableMapping.sol": {
+              "IterableMapping": "0x231C7F5887213d951107ad2B6E8a6CCfE8cA6EEf"
+            }
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./DividendPayingToken.sol",
+        "./Ownable.sol",
+        "./IterableMapping.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "DividendTracker"
+      ]
+    },
+    "/mnt/c/Users/dhan/Desktop/contract/contracts/IWETH.sol": {
+      "lastModificationDate": 1672931014959,
+      "contentHash": "fd4222ea716b887129dc2810954e4a1e",
+      "sourceName": "contracts/IWETH.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "byzantium",
+          "libraries": {
+            "contracts/IterableMapping.sol": {
+              "IterableMapping": "0x231C7F5887213d951107ad2B6E8a6CCfE8cA6EEf"
+            }
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "IWETH"
+      ]
+    },
+    "/mnt/c/Users/dhan/Desktop/contract/contracts/ERC20.sol": {
+      "lastModificationDate": 1672930966696,
+      "contentHash": "c0bb400bc9d8fa85bcbc3f6196ebedef",
+      "sourceName": "contracts/ERC20.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "byzantium",
+          "libraries": {
+            "contracts/IterableMapping.sol": {
+              "IterableMapping": "0x231C7F5887213d951107ad2B6E8a6CCfE8cA6EEf"
+            }
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Context.sol",
+        "./IERC20.sol",
+        "./SafeMath.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "ERC20"
+      ]
+    },
+    "/mnt/c/Users/dhan/Desktop/contract/contracts/IterableMapping.sol": {
+      "lastModificationDate": 1672930988132,
+      "contentHash": "17343f8c6c19db40e52cb3bfb52d823d",
+      "sourceName": "contracts/IterableMapping.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "byzantium",
+          "libraries": {
+            "contracts/IterableMapping.sol": {
+              "IterableMapping": "0x231C7F5887213d951107ad2B6E8a6CCfE8cA6EEf"
+            }
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "IterableMapping"
+      ]
+    },
+    "/mnt/c/Users/dhan/Desktop/contract/contracts/DividendPayingToken.sol": {
+      "lastModificationDate": 1672930959914,
+      "contentHash": "d87ec6fc37095f46d52fef408b761650",
+      "sourceName": "contracts/DividendPayingToken.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "byzantium",
+          "libraries": {
+            "contracts/IterableMapping.sol": {
+              "IterableMapping": "0x231C7F5887213d951107ad2B6E8a6CCfE8cA6EEf"
+            }
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ERC20.sol",
+        "./IDIvidendPayingToken.sol",
+        "./IDividendPayingTokenOptional.sol",
+        "./SafeMathUint.sol",
+        "./SafeMathInt.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "DividendPayingToken"
+      ]
+    },
+    "/mnt/c/Users/dhan/Desktop/contract/contracts/SafeMathUint.sol": {
+      "lastModificationDate": 1672931038917,
+      "contentHash": "c851deefd9f725fefb290fb2108cc9ab",
+      "sourceName": "contracts/SafeMathUint.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "byzantium",
+          "libraries": {
+            "contracts/IterableMapping.sol": {
+              "IterableMapping": "0x231C7F5887213d951107ad2B6E8a6CCfE8cA6EEf"
+            }
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "SafeMathUint"
+      ]
+    },
+    "/mnt/c/Users/dhan/Desktop/contract/contracts/SafeMathInt.sol": {
+      "lastModificationDate": 1672931035080,
+      "contentHash": "5121bcfe7d8028044711d34d10a65155",
+      "sourceName": "contracts/SafeMathInt.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "byzantium",
+          "libraries": {
+            "contracts/IterableMapping.sol": {
+              "IterableMapping": "0x231C7F5887213d951107ad2B6E8a6CCfE8cA6EEf"
+            }
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "SafeMathInt"
+      ]
+    },
+    "/mnt/c/Users/dhan/Desktop/contract/contracts/IDividendPayingTokenOptional.sol": {
+      "lastModificationDate": 1672930978454,
+      "contentHash": "f47e568b092490f7b84088466e79d537",
+      "sourceName": "contracts/IDividendPayingTokenOptional.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "byzantium",
+          "libraries": {
+            "contracts/IterableMapping.sol": {
+              "IterableMapping": "0x231C7F5887213d951107ad2B6E8a6CCfE8cA6EEf"
+            }
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "IDividendPayingTokenOptional"
+      ]
+    },
+    "/mnt/c/Users/dhan/Desktop/contract/contracts/IDIvidendPayingToken.sol": {
+      "lastModificationDate": 1672930972418,
+      "contentHash": "109ea9569cf97b946bdcd29463ff34e4",
+      "sourceName": "contracts/IDIvidendPayingToken.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "byzantium",
+          "libraries": {
+            "contracts/IterableMapping.sol": {
+              "IterableMapping": "0x231C7F5887213d951107ad2B6E8a6CCfE8cA6EEf"
+            }
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "IDividendPayingToken"
+      ]
+    },
+    "/mnt/c/Users/dhan/Desktop/contract/contracts/IERC20.sol": {
+      "lastModificationDate": 1672930983048,
+      "contentHash": "812eb0bc7b75ff1b4cdc11e909584a16",
+      "sourceName": "contracts/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "byzantium",
+          "libraries": {
+            "contracts/IterableMapping.sol": {
+              "IterableMapping": "0x231C7F5887213d951107ad2B6E8a6CCfE8cA6EEf"
+            }
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/mnt/c/Users/dhan/Desktop/contract/contracts/SafeMath.sol": {
+      "lastModificationDate": 1672931030251,
+      "contentHash": "d03267caacf88879460cd4b27e14a0f1",
+      "sourceName": "contracts/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "byzantium",
+          "libraries": {
+            "contracts/IterableMapping.sol": {
+              "IterableMapping": "0x231C7F5887213d951107ad2B6E8a6CCfE8cA6EEf"
+            }
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
+    },
+    "/mnt/c/Users/dhan/Desktop/contract/contracts/IUniswapV2Pair.sol": {
+      "lastModificationDate": 1672931001261,
+      "contentHash": "48b80377c22a59882ab1020be3afaeed",
+      "sourceName": "contracts/IUniswapV2Pair.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "byzantium",
+          "libraries": {
+            "contracts/IterableMapping.sol": {
+              "IterableMapping": "0x231C7F5887213d951107ad2B6E8a6CCfE8cA6EEf"
+            }
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "IUniswapV2Pair"
+      ]
+    },
+    "/mnt/c/Users/dhan/Desktop/contract/contracts/IUniswapV2Router01.sol": {
+      "lastModificationDate": 1672931006386,
+      "contentHash": "c3d3c374709b684910a6b7c5c883a66b",
+      "sourceName": "contracts/IUniswapV2Router01.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "byzantium",
+          "libraries": {
+            "contracts/IterableMapping.sol": {
+              "IterableMapping": "0x231C7F5887213d951107ad2B6E8a6CCfE8cA6EEf"
+            }
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "IUniswapV2Router01"
+      ]
+    }
+  }
+}

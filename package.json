@@ -1,0 +1,40 @@
+{
+  "name": "Bot",
+  "version": "1.11.1",
+  "main": "index.js",
+  "author": "dhanRks",
+  "license": "MIT",
+  "dependencies": {
+    "@openzeppelin/hardhat-upgrades": "^1.15.0",
+    "@solana/spl-token": "^0.3.7",
+    "@solana/web3.js": "^1.73.3",
+    "axios": "^1.3.4",
+    "bignumber.js": "^9.1.1",
+    "bip39": "^3.0.4",
+    "browserify": "^17.0.0",
+    "bs58": "^5.0.0",
+    "chalk": "^4.1.2",
+    "ethers": "5.4.1",
+    "mariadb": "^3.1.0",
+    "minimist": "^1.2.5",
+    "mysql": "^2.18.1",
+    "node-telegram-bot-api": "^0.61.0",
+    "ora": "5.4.1",
+    "tron-tx-decoder": "^2.0.2",
+    "trongrid": "^1.2.6",
+    "tronweb": "^5.1.0",
+    "web3": "^1.8.2",
+    "web3-utils": "^1.8.2"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "@nomiclabs/hardhat-etherscan": "^3.0.1",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "chai": "^4.3.6",
+    "ethereum-waffle": "^3.4.0",
+    "hardhat": "^2.9.0"
+  },
+  "repository": {
+    "type": "git"
+  }
+}
